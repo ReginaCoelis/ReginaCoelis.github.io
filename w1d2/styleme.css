@@ -1,0 +1,14 @@
+body{
+    background-color: lightcyan;
+}
+
+h1{
+    color: blueviolet;
+    margin-top: 20px;
+}
+
+.container{
+    margin: auto;
+    overflow: hidden;
+    display: inline;
+}
