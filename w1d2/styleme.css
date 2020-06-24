@@ -5,6 +5,13 @@ body{
 h1{
     color: blueviolet;
     margin-top: 20px;
+    font-weight: 600;
+    font-family:  Helvetica;
+}
+#favoriteMovies{
+    color: darkorchid;
+    font-family: Arial;
+    font-style: italic;
 }
 
 .container{
