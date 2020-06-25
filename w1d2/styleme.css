@@ -29,3 +29,13 @@ a {
     overflow: hidden;
     display: inline;
 }
+p { 
+ 
+    color: aliceblue;
+  }
+  h1,h2{
+
+  }
+  h1,h2{
+    background-image:url("http://mumstudents.org/images/background.jpg")
+  }

@@ -1,0 +1,123 @@
+body{
+    background-image: url("images/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20%;
+}
+
+#banner{
+    text-align: center;
+    height: 50px;
+    background-image: url("images/bannerbg.png");
+    background-repeat: repeat-x;
+}
+
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+#validator{
+    float: right;
+}
+
+#container{
+    display: grid;
+    border: 4px solid gray;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    overflow: hidden;
+
+    grid-template-areas:
+    'rotten  overview'
+    'review  overview'
+    'review  details'
+    'review  details'
+    'footer  footer'
+    ;
+    }
+
+    #rotten{grid-area: rotten;
+            width: 550px;
+            height: 83px;
+            background-image: url("images/rbg.png");
+            background-repeat: repeat-x;
+           
+    }
+    #rotten span{
+        color: red;
+        font-size: 48pt;
+        font-weight: bold;
+        vertical-align: text-bottom;
+        
+    }
+    #gen-overview{grid-area: overview;}
+
+    #review{
+        grid-area: review;
+            column-count: 2;
+           margin: 2%;
+        }
+
+    .reviews{
+        border: 2px solid gray;
+        background-color: #E8DC9B;
+        border-radius: 10px;
+        font-size: 8pt;
+        font-weight: bold;
+        padding: 8px;
+        height: auto;
+        }
+
+    .reviews img{
+        margin-right: 5px;
+        float: left;
+    }
+
+    div p.reviewer span{
+        font-style: italic;
+    }
+    #details{
+        margin-top: -75px;
+        grid-area: details;
+        background-color: #A2B964;
+        width: auto; /*250px*/
+        height: auto;
+        padding: 10pt;
+        font-family: Arial, sans-serif;
+        font-size: 8pt;
+    }
+    #details dt{
+      
+       padding-top: 10pt;
+       font-weight: bold;
+
+    }
+
+    #details a{
+        text-decoration: none;
+    }
+    #footer{
+        grid-area: footer;
+        background-color: #A2B964;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+    }
+
+    #validator img{
+        opacity: 50%;
+    }
+    
+
+    #validator{
+        bottom: 0;
+        right: 0;
+        position: fixed;
+    }
