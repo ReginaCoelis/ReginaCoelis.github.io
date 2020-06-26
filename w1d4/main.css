@@ -1,12 +1,12 @@
 .header {
-    background-color: aquamarine;
+    background-color:#A6DCEF;
     height: 60px;
     text-align: center;
 }
 
 .menu {
     grid-area: menu;
-    background-color: rgb(30, 104, 30);
+    background-color:#006666;
     height: 30px;
     width: 100%;
 }
@@ -31,24 +31,25 @@
 }
 
 .column1 {
-    background-color: grey;
+    background-color:#969696;
     height: 500px;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 .column2 {
-    background-color:lightgray;
-    text-align: center;
+    background-color:#acacac;
+    text-align: left;
 }
 
 .column3 {
     grid-area: main3;
-    background-color: rgb(87, 78, 78);
+    background-color:#dadada;
+    
 }
 
 .footer {
-    background-color: rgb(30, 104, 30);
+    background-color: #006666;
     height: 50px;
     width: 100%;
     text-align: center;
