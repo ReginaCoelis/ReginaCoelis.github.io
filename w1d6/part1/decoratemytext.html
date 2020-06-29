@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text Decorator</title>
+    <link href="decoratemytext.css" type="text/css" rel="stylesheet" />
+
+    <!--
+		This is a widely-used JavaScript library named jQuery that has
+		many useful functions which we need.
+		Please don't remove this link or change its URL; leave it as-is!
+		-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script defer src="decoratemytext.js"></script>
+
+    <!-- link to your script file here -->
+
+</head>
+
+<body id="body">
+    <h1>Text Decorator</h1>
+
+    <div>
+        <img src="decorated.jpg" alt="very decorated!" />
+    </div>
+
+    <!-- Your UI controls go here -->
+    <fieldset>
+        <legend>Text</legend>
+        <textarea name="textArea" id="textArea" cols="30" rows="4">
+            Sample Item 1
+            Sample Item 2
+        </textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Decoration</legend>
+        <button onclick="increaseFontSizeWithTimer()">Bigger Decorations!</button>
+        <button onclick="clearFontGrowth()">Cancel Bigger Decorations!</button>
+        <div>
+            <input type="checkbox" id="check1" onchange="boldenText()">
+            <label for="check1">Bling</label>
+        </div>
+        <button onclick="transformPigLatin()">Pig Latin</button><br>
+        <button onclick="transforMalkovitch()">Malkovitch</button>
+    </fieldset>
+
+    <footer>
+        <a href="https://validator.w3.org/check/referer">
+            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="Validate html">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="Validate css">
+        </a>
+        
+    </footer>
+
+</body>
+
+</html>
