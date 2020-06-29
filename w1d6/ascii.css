@@ -1,0 +1,65 @@
+* {
+    color: black;
+    font-size: 14pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #CCCCFF;
+}
+
+.control-btns {
+    display: inline-flex;
+}
+
+h1 {
+    font-size: 32pt;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+textarea {
+    width: 90%;
+    height: 400px;
+    font-size: 12pt;
+    font-family: monospace;
+}
+
+#ascii-area {
+    text-align: center;
+}
+
+fieldset {
+    border: solid 5px;
+}
+
+#valid-icons {
+    display: grid;
+    float: right;
+}
+
+.tiny {
+    font-size: 7pt;
+}
+
+.small {
+    font-size: 10pt;
+}
+
+.medium {
+    font-size: 12pt;
+}
+
+.large {
+    font-size: 16pt;
+}
+
+.extra-large {
+    font-size: 24pt;
+}
+
+.xxl {
+    font-size: 32pt;
+}
