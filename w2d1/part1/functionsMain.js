@@ -164,8 +164,8 @@
         assert.equal(multiply([10, 2, 3]), 60);
     })
 
-    it("reverse('Philip') is pilihP", function() {
-        assert.equal(reverse('Philip'), 'pilihP');
+    it("reverse('Regina') is anigeR", function() {
+        assert.equal(reverse('Regina'), 'anigeR');
     })
 
     it("findLongestWords(['regina','coelis','kandekere']) is kandekere", function() {

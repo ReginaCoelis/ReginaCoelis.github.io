@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>webform1</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="webform.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <form>
+        <div class="row">
+           
+            <div class="col-lg-12">
+                <label>Email Address</label> <br>
+                <input type="email" name="email Address1" class="form-control" placeholder="Enter Email" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" title="Must contain at least 10 characters in length and contain at least one number and one uppercase and lowercase letter" required>
+                <p class="lead"> We"ll never share your email with anyone else.</p>
+            </div>
+
+            <div class="col-lg-12">
+                <label> Password</label><br>
+                 <input type="password" name="password" class="form-control" placeholder="Password" required>
+            </div>
+
+            <div class="col-lg-12">
+                
+                <label>Website</label><br>
+                  <input type="url" placeholder="Enter website link" name="web"  pattern="https?://.+"
+               title="Include http:// or Include https://" required>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="check-grp">
+                    <input type="checkbox"  name="check1" required> 
+                <label for="check1">Check me out</label>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <button type="submit" value="Submit" class="btn btn-primary">Submit</button>
+            </div>
+        
+        </div>
+    </form>
+     
+    </body>
+</html>

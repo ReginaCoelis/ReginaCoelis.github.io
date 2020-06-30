@@ -1,0 +1,34 @@
+.btn-grp-custom{
+    padding: 10px;
+}
+
+.btn-grp-custom button{
+    float: right;
+    margin-left: 20px;
+}
+.user{
+    height: 100%;
+    width: 100px;
+}
+
+.user p{
+    text-align: left;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.bg-green-custom a, p{
+   color: #fff !important;
+}
+
+.bar{
+    border: 2px solid transparent;
+    border-right-color: #fff;
+    width: 400px;
+}
+
+.bar-1{
+    border: 2px solid transparent;
+    border-right-color: #fff;
+    width: 100px;
+}
